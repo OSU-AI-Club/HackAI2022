@@ -1,1 +1,2 @@
 # HackAI2022
+This repository contains submissions for HackAI 2022 held by the Artificial Intelligence Club on April 9th, 2022 - April 10th, 2022. If you want your project to be removed from this public repository or if you submitted a project and want it featured, please contact osuaiclub@gmail.com.
