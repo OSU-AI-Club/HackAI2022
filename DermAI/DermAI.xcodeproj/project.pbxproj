@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033BAC8C2802635300B1C346 /* dermAI_model1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 033BAC8B2802635100B1C346 /* dermAI_model1.mlmodel */; };
+		033BAC912802640F00B1C346 /* vascular_lesion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033BAC902802640F00B1C346 /* vascular_lesion.jpg */; };
+		033BAC932802642B00B1C346 /* actinic_keratosis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033BAC922802642A00B1C346 /* actinic_keratosis.jpg */; };
+		033BAC9B28027CF600B1C346 /* melanoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033BAC9A28027CF600B1C346 /* melanoma.jpg */; };
+		033BAC9E28027F9800B1C346 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BAC9D28027F9800B1C346 /* Welcome.swift */; };
+		033BACA0280280C000B1C346 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BAC9F280280C000B1C346 /* ImagePicker.swift */; };
+		033BACA22802822900B1C346 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACA12802822900B1C346 /* CameraView.swift */; };
+		033BACA528028B5900B1C346 /* Actinic_Keratosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACA428028B5900B1C346 /* Actinic_Keratosis.swift */; };
+		033BACA728028BA400B1C346 /* Basal_Cell_Carcinoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACA628028BA400B1C346 /* Basal_Cell_Carcinoma.swift */; };
+		033BACA928028C4600B1C346 /* Dermatofibroma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACA828028C4600B1C346 /* Dermatofibroma.swift */; };
+		033BACAB28028C9600B1C346 /* Melanoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACAA28028C9600B1C346 /* Melanoma.swift */; };
+		033BACAD28028CB000B1C346 /* Melanocytic_nevi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACAC28028CB000B1C346 /* Melanocytic_nevi.swift */; };
+		033BACAF28028D8500B1C346 /* Pigmented_Benign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACAE28028D8500B1C346 /* Pigmented_Benign.swift */; };
+		033BACB128028D9D00B1C346 /* Vascular_Lesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACB028028D9D00B1C346 /* Vascular_Lesion.swift */; };
+		033BACB32802A44500B1C346 /* CancerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACB22802A44500B1C346 /* CancerView.swift */; };
+		033BACB52802AB9A00B1C346 /* DermAI.png in Resources */ = {isa = PBXBuildFile; fileRef = 033BACB42802AB9A00B1C346 /* DermAI.png */; };
+		033BACB72802AF4600B1C346 /* DermAIHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BACB62802AF4500B1C346 /* DermAIHome.swift */; };
+		036AD0892802629700DE50C9 /* DermAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AD0882802629700DE50C9 /* DermAIApp.swift */; };
+		036AD08B2802629700DE50C9 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AD08A2802629700DE50C9 /* Results.swift */; };
+		036AD08D280262A300DE50C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036AD08C280262A300DE50C9 /* Assets.xcassets */; };
+		036AD090280262A300DE50C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036AD08F280262A300DE50C9 /* Preview Assets.xcassets */; };
+		036AD09A280262A400DE50C9 /* DermAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AD099280262A400DE50C9 /* DermAITests.swift */; };
+		036AD0A4280262A400DE50C9 /* DermAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AD0A3280262A400DE50C9 /* DermAIUITests.swift */; };
+		036AD0A6280262A400DE50C9 /* DermAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036AD0A5280262A400DE50C9 /* DermAIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036AD096280262A400DE50C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036AD07D2802629600DE50C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036AD0842802629600DE50C9;
+			remoteInfo = DermAI;
+		};
+		036AD0A0280262A400DE50C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036AD07D2802629600DE50C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036AD0842802629600DE50C9;
+			remoteInfo = DermAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033BAC8B2802635100B1C346 /* dermAI_model1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = dermAI_model1.mlmodel; sourceTree = "<group>"; };
+		033BAC902802640F00B1C346 /* vascular_lesion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vascular_lesion.jpg; sourceTree = "<group>"; };
+		033BAC922802642A00B1C346 /* actinic_keratosis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actinic_keratosis.jpg; sourceTree = "<group>"; };
+		033BAC9A28027CF600B1C346 /* melanoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = melanoma.jpg; sourceTree = "<group>"; };
+		033BAC9D28027F9800B1C346 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		033BAC9F280280C000B1C346 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		033BACA12802822900B1C346 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		033BACA428028B5900B1C346 /* Actinic_Keratosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actinic_Keratosis.swift; sourceTree = "<group>"; };
+		033BACA628028BA400B1C346 /* Basal_Cell_Carcinoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basal_Cell_Carcinoma.swift; sourceTree = "<group>"; };
+		033BACA828028C4600B1C346 /* Dermatofibroma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dermatofibroma.swift; sourceTree = "<group>"; };
+		033BACAA28028C9600B1C346 /* Melanoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melanoma.swift; sourceTree = "<group>"; };
+		033BACAC28028CB000B1C346 /* Melanocytic_nevi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Melanocytic_nevi.swift; sourceTree = "<group>"; };
+		033BACAE28028D8500B1C346 /* Pigmented_Benign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pigmented_Benign.swift; sourceTree = "<group>"; };
+		033BACB028028D9D00B1C346 /* Vascular_Lesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vascular_Lesion.swift; sourceTree = "<group>"; };
+		033BACB22802A44500B1C346 /* CancerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerView.swift; sourceTree = "<group>"; };
+		033BACB42802AB9A00B1C346 /* DermAI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DermAI.png; sourceTree = "<group>"; };
+		033BACB62802AF4500B1C346 /* DermAIHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermAIHome.swift; sourceTree = "<group>"; };
+		036AD0852802629700DE50C9 /* DermAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036AD0882802629700DE50C9 /* DermAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermAIApp.swift; sourceTree = "<group>"; };
+		036AD08A2802629700DE50C9 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		036AD08C280262A300DE50C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036AD08F280262A300DE50C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		036AD095280262A400DE50C9 /* DermAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DermAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036AD099280262A400DE50C9 /* DermAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermAITests.swift; sourceTree = "<group>"; };
+		036AD09F280262A400DE50C9 /* DermAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DermAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036AD0A3280262A400DE50C9 /* DermAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermAIUITests.swift; sourceTree = "<group>"; };
+		036AD0A5280262A400DE50C9 /* DermAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036AD0822802629600DE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD092280262A400DE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD09C280262A400DE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033BAC8D2802639200B1C346 /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				033BAC922802642A00B1C346 /* actinic_keratosis.jpg */,
+				033BAC902802640F00B1C346 /* vascular_lesion.jpg */,
+				033BAC9A28027CF600B1C346 /* melanoma.jpg */,
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		033BAC9C28027F5000B1C346 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				033BACA32802823300B1C346 /* CancerViews */,
+				033BAC9D28027F9800B1C346 /* Welcome.swift */,
+				033BACB62802AF4500B1C346 /* DermAIHome.swift */,
+				033BACA12802822900B1C346 /* CameraView.swift */,
+				036AD08A2802629700DE50C9 /* Results.swift */,
+				033BAC9F280280C000B1C346 /* ImagePicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		033BACA32802823300B1C346 /* CancerViews */ = {
+			isa = PBXGroup;
+			children = (
+				033BACB22802A44500B1C346 /* CancerView.swift */,
+				033BACA428028B5900B1C346 /* Actinic_Keratosis.swift */,
+				033BACA628028BA400B1C346 /* Basal_Cell_Carcinoma.swift */,
+				033BACA828028C4600B1C346 /* Dermatofibroma.swift */,
+				033BACAA28028C9600B1C346 /* Melanoma.swift */,
+				033BACAC28028CB000B1C346 /* Melanocytic_nevi.swift */,
+				033BACAE28028D8500B1C346 /* Pigmented_Benign.swift */,
+				033BACB028028D9D00B1C346 /* Vascular_Lesion.swift */,
+			);
+			path = CancerViews;
+			sourceTree = "<group>";
+		};
+		036AD07C2802629600DE50C9 = {
+			isa = PBXGroup;
+			children = (
+				033BACB42802AB9A00B1C346 /* DermAI.png */,
+				033BAC8D2802639200B1C346 /* Test Data */,
+				033BAC8B2802635100B1C346 /* dermAI_model1.mlmodel */,
+				036AD0872802629700DE50C9 /* DermAI */,
+				036AD098280262A400DE50C9 /* DermAITests */,
+				036AD0A2280262A400DE50C9 /* DermAIUITests */,
+				036AD0862802629700DE50C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036AD0862802629700DE50C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036AD0852802629700DE50C9 /* DermAI.app */,
+				036AD095280262A400DE50C9 /* DermAITests.xctest */,
+				036AD09F280262A400DE50C9 /* DermAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036AD0872802629700DE50C9 /* DermAI */ = {
+			isa = PBXGroup;
+			children = (
+				033BAC9C28027F5000B1C346 /* Views */,
+				036AD0882802629700DE50C9 /* DermAIApp.swift */,
+				036AD08C280262A300DE50C9 /* Assets.xcassets */,
+				036AD08E280262A300DE50C9 /* Preview Content */,
+			);
+			path = DermAI;
+			sourceTree = "<group>";
+		};
+		036AD08E280262A300DE50C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				036AD08F280262A300DE50C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		036AD098280262A400DE50C9 /* DermAITests */ = {
+			isa = PBXGroup;
+			children = (
+				036AD099280262A400DE50C9 /* DermAITests.swift */,
+			);
+			path = DermAITests;
+			sourceTree = "<group>";
+		};
+		036AD0A2280262A400DE50C9 /* DermAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036AD0A3280262A400DE50C9 /* DermAIUITests.swift */,
+				036AD0A5280262A400DE50C9 /* DermAIUITestsLaunchTests.swift */,
+			);
+			path = DermAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036AD0842802629600DE50C9 /* DermAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036AD0A9280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAI" */;
+			buildPhases = (
+				036AD0812802629600DE50C9 /* Sources */,
+				036AD0822802629600DE50C9 /* Frameworks */,
+				036AD0832802629600DE50C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DermAI;
+			productName = DermAI;
+			productReference = 036AD0852802629700DE50C9 /* DermAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036AD094280262A400DE50C9 /* DermAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036AD0AC280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAITests" */;
+			buildPhases = (
+				036AD091280262A400DE50C9 /* Sources */,
+				036AD092280262A400DE50C9 /* Frameworks */,
+				036AD093280262A400DE50C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036AD097280262A400DE50C9 /* PBXTargetDependency */,
+			);
+			name = DermAITests;
+			productName = DermAITests;
+			productReference = 036AD095280262A400DE50C9 /* DermAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036AD09E280262A400DE50C9 /* DermAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036AD0AF280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAIUITests" */;
+			buildPhases = (
+				036AD09B280262A400DE50C9 /* Sources */,
+				036AD09C280262A400DE50C9 /* Frameworks */,
+				036AD09D280262A400DE50C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036AD0A1280262A400DE50C9 /* PBXTargetDependency */,
+			);
+			name = DermAIUITests;
+			productName = DermAIUITests;
+			productReference = 036AD09F280262A400DE50C9 /* DermAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036AD07D2802629600DE50C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					036AD0842802629600DE50C9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					036AD094280262A400DE50C9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 036AD0842802629600DE50C9;
+					};
+					036AD09E280262A400DE50C9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 036AD0842802629600DE50C9;
+					};
+				};
+			};
+			buildConfigurationList = 036AD0802802629600DE50C9 /* Build configuration list for PBXProject "DermAI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036AD07C2802629600DE50C9;
+			productRefGroup = 036AD0862802629700DE50C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036AD0842802629600DE50C9 /* DermAI */,
+				036AD094280262A400DE50C9 /* DermAITests */,
+				036AD09E280262A400DE50C9 /* DermAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036AD0832802629600DE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036AD090280262A300DE50C9 /* Preview Assets.xcassets in Resources */,
+				033BACB52802AB9A00B1C346 /* DermAI.png in Resources */,
+				033BAC912802640F00B1C346 /* vascular_lesion.jpg in Resources */,
+				033BAC9B28027CF600B1C346 /* melanoma.jpg in Resources */,
+				036AD08D280262A300DE50C9 /* Assets.xcassets in Resources */,
+				033BAC932802642B00B1C346 /* actinic_keratosis.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD093280262A400DE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD09D280262A400DE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036AD0812802629600DE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033BACB32802A44500B1C346 /* CancerView.swift in Sources */,
+				033BACB128028D9D00B1C346 /* Vascular_Lesion.swift in Sources */,
+				033BACAD28028CB000B1C346 /* Melanocytic_nevi.swift in Sources */,
+				033BACA928028C4600B1C346 /* Dermatofibroma.swift in Sources */,
+				033BAC9E28027F9800B1C346 /* Welcome.swift in Sources */,
+				036AD08B2802629700DE50C9 /* Results.swift in Sources */,
+				033BACA0280280C000B1C346 /* ImagePicker.swift in Sources */,
+				033BACA728028BA400B1C346 /* Basal_Cell_Carcinoma.swift in Sources */,
+				033BACA22802822900B1C346 /* CameraView.swift in Sources */,
+				036AD0892802629700DE50C9 /* DermAIApp.swift in Sources */,
+				033BACB72802AF4600B1C346 /* DermAIHome.swift in Sources */,
+				033BACAF28028D8500B1C346 /* Pigmented_Benign.swift in Sources */,
+				033BACAB28028C9600B1C346 /* Melanoma.swift in Sources */,
+				033BAC8C2802635300B1C346 /* dermAI_model1.mlmodel in Sources */,
+				033BACA528028B5900B1C346 /* Actinic_Keratosis.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD091280262A400DE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036AD09A280262A400DE50C9 /* DermAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036AD09B280262A400DE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036AD0A6280262A400DE50C9 /* DermAIUITestsLaunchTests.swift in Sources */,
+				036AD0A4280262A400DE50C9 /* DermAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036AD097280262A400DE50C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036AD0842802629600DE50C9 /* DermAI */;
+			targetProxy = 036AD096280262A400DE50C9 /* PBXContainerItemProxy */;
+		};
+		036AD0A1280262A400DE50C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036AD0842802629600DE50C9 /* DermAI */;
+			targetProxy = 036AD0A0280262A400DE50C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036AD0A7280262A400DE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036AD0A8280262A400DE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036AD0AA280262A400DE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DermAI/Preview Content\"";
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		036AD0AB280262A400DE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DermAI/Preview Content\"";
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		036AD0AD280262A400DE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DermAI.app/DermAI";
+			};
+			name = Debug;
+		};
+		036AD0AE280262A400DE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DermAI.app/DermAI";
+			};
+			name = Release;
+		};
+		036AD0B0280262A400DE50C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DermAI;
+			};
+			name = Debug;
+		};
+		036AD0B1280262A400DE50C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VM7SQWLDT5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihirjoe.DermAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DermAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036AD0802802629600DE50C9 /* Build configuration list for PBXProject "DermAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036AD0A7280262A400DE50C9 /* Debug */,
+				036AD0A8280262A400DE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036AD0A9280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036AD0AA280262A400DE50C9 /* Debug */,
+				036AD0AB280262A400DE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036AD0AC280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036AD0AD280262A400DE50C9 /* Debug */,
+				036AD0AE280262A400DE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036AD0AF280262A400DE50C9 /* Build configuration list for PBXNativeTarget "DermAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036AD0B0280262A400DE50C9 /* Debug */,
+				036AD0B1280262A400DE50C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036AD07D2802629600DE50C9 /* Project object */;
+}
